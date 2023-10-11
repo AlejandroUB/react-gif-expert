@@ -1,6 +1,8 @@
+import { getGifs } from "../helpers/getGifs";
+
 export const GifGrid = ({ category }) => {
 
-    // TODO: HTTP request
+    getGifs(category);
     const gifs = [1, 2, 3, 4, 5];
 
     return (
